@@ -18,7 +18,7 @@ data class UserDto(
     @SerializedName("portfolio_url")
     val portfolioUrl: String,
     @SerializedName("profile_image")
-    val profileImage: ProfileImageDto,
+    val profileImage: UserProfileImageDto,
     @SerializedName("twitter_username")
     val twitterUsername: String,
     val username: String

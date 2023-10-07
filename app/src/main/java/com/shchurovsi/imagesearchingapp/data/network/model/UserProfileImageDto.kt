@@ -1,10 +1,10 @@
-package com.shchurovsi.imagesearchingapp.domain
+package com.shchurovsi.imagesearchingapp.data.network.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class ProfileImage(
+data class UserProfileImageDto(
     val large: String,
     val medium: String,
     val small: String

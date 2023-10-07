@@ -16,6 +16,6 @@ data class User(
     val lastName: String,
     val name: String,
     @SerializedName("profile_image")
-    val profileImage: ProfileImage,
+    val profileImage: UserProfileImage,
     val username: String
 ) : Parcelable
