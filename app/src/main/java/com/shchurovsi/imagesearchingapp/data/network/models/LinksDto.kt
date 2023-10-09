@@ -1,12 +1,11 @@
-package com.shchurovsi.imagesearchingapp.data.network.model
+package com.shchurovsi.imagesearchingapp.data.network.models
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class LinksXDto(
+data class LinksDto(
+    val download: String,
     val html: String,
-    val likes: String,
-    val photos: String,
     val self: String
 ) : Parcelable

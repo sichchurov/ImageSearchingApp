@@ -1,4 +1,4 @@
-package com.shchurovsi.imagesearchingapp.domain
+package com.shchurovsi.imagesearchingapp.domain.entities
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

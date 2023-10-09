@@ -1,4 +1,4 @@
-package com.shchurovsi.imagesearchingapp.data.network.model
+package com.shchurovsi.imagesearchingapp.data.network.models
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
