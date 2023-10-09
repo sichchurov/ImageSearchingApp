@@ -1,14 +1,5 @@
 package com.shchurovsi.imagesearchingapp.domain.entities
 
-
-import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
-import android.os.Parcelable
-
-@Parcelize
 data class ListImage(
-    val images: List<Image>,
-    val total: Int,
-    @SerializedName("total_pages")
-    val totalPages: Int
-) : Parcelable
+    val images: List<Image>
+)

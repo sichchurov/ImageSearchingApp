@@ -40,7 +40,6 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:visibility="visible" />
 
-
     <TextView
         android:id="@+id/tv_empty_result"
         android:layout_width="wrap_content"
@@ -68,6 +67,5 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
