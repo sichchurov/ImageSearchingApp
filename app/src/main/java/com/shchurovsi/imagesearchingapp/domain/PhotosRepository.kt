@@ -1,11 +1,13 @@
 package com.shchurovsi.imagesearchingapp.domain
 
-import com.shchurovsi.imagesearchingapp.domain.entities.ListImage
+import androidx.lifecycle.LiveData
+import androidx.paging.PagingData
+import com.shchurovsi.imagesearchingapp.domain.entities.Image
 
 interface PhotosRepository {
     suspend fun searchPhoto(
         query: String,
         page: Int,
         perPage: Int
-    ): ListImage
+    ): LiveData<PagingData<Image>>
 }

@@ -25,7 +25,7 @@ class PhotoMapper @Inject constructor() {
         thumb = urlsDto.thumb
     )
 
-    private fun mapImageDtoToImageEntity(imageDto: ImageDto) = Image(
+    fun mapImageDtoToImageEntity(imageDto: ImageDto) = Image(
         id = imageDto.id,
         description = imageDto.description,
         likes = imageDto.likes,
