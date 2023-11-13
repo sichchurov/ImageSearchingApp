@@ -20,7 +20,7 @@ class PhotosRepositoryImpl @Inject constructor(
     private val apiHelperImpl: ApiHelperImpl,
     private val mapper: PhotoMapper
 ) : PhotosRepository {
-    override suspend fun searchPhoto(
+    override fun searchPhoto(
         query: String,
         page: Int,
         perPage: Int

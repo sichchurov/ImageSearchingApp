@@ -5,7 +5,7 @@ import androidx.paging.PagingData
 import com.shchurovsi.imagesearchingapp.domain.entities.Image
 
 interface PhotosRepository {
-    suspend fun searchPhoto(
+    fun searchPhoto(
         query: String,
         page: Int,
         perPage: Int

@@ -4,7 +4,6 @@ import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.shchurovsi.imagesearchingapp.data.network.api.ApiHelperImpl
 import com.shchurovsi.imagesearchingapp.data.network.models.ImageDto
-import com.shchurovsi.imagesearchingapp.data.network.models.ListImageDto
 import retrofit2.HttpException
 import java.io.IOException
 
